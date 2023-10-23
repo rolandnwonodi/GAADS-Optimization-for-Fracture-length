@@ -1,0 +1,48 @@
+import random
+n = random.randint (2,60)
+import random
+n = random.randint (0,174)
+import random
+n = random.randint (146)
+
+historical_data_x(1) = [random.randint (2,60)]
+historical_data_x(2) = [random.randint (0,174)]
+historical_data_x(3) = [random.randint (0,146)]
+sample_size = 100
+step_size = len(historical_data) / sample_size
+start_point = random.randint (0, int(step_size) - 1)
+systematic_random_numbers = []
+for i in range(sample_size):
+    index = int(start_point + i * step_size)
+    	systematic_random_numbers_x(1).append(historical_data[index])
+systematic_random_numbers_x(2).append(historical_data[index]) systematic_random_numbers_x(3).append(historical_data[index])
+print(systematic_random_numbers_x(1))
+print(systematic_random_numbers_x(2))
+print(systematic_random_numbers_x(3))
+Group the shuffled data by the "Category" variable
+grouped_data = shuffled_data.groupby('Category')
+columnized_data = grouped_data.apply(lambda x: x.drop(columns=['Category']).reset_index(drop=True))
+columnized_data.reset_index(drop=True, inplace=True)
+print(columnized_data)
+def assign_to_mates_or_parents(random_numbers):
+    mates = []
+    parents = []
+    for number in random_numbers:
+        if number % 2 == 0:
+            mates.append(number)
+        else:
+            parents.append(number)
+    return mates, parents
+random_numbers = []
+mates, parents = assign_to_mates_or_parents(random_numbers)
+print("Mates:", mates)
+print("Parents:", parents)
+minimize L(x) = 384.29*x(1)^0.322*x(2)^-0.128*x(3)^-0.059
+    return 384.29*x(1)^0.322*x(2)^-0.128*x(3)^-0.059
+def evaluate_individual(individual):
+    return objective_function(individual)
+mates_or_parents = []
+fitness_scores = [evaluate_individual(individual) for individual in mates_or_parents]
+best_individual = mates_or_parents[fitness_scores.index(max(fitness_scores))]
+print("Fitness Scores:", fitness_scores)
+print("Best Individual:", best_individual) 
